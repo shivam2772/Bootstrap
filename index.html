@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Website Title & Description for Search Engine purposes -->
+		<title>funRoute</title>
+		<meta name="description" content=""/>
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet"/>
+		
+		<!-- Custom CSS -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
+
+		<link href="includes/css/styles1.css" rel="stylesheet"/>
+		
+</head>
+<body>
+	<main>
+		<div class="container-fluid">
+			
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand"><img src="images/logo.png" alt="Your Logo"/></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						
+						<div class="input-group">
+   							 <div class="input-group-btn search-panel">
+      							 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    				<span id="search_concept">All</span> <span class="caret"></span>
+                    			 </button>
+        						<ul class="dropdown-menu" role="menu">
+            						<li><a href="#contains">Contains</a></li>
+        							 <li><a href="#its_equal">Travel</a></li>
+           							 <li><a href="#greather_than">Explore</a></li>
+          							  <li><a href="#less_than">Stories</a></li>
+           							 <li class="divider"></li>
+          							  <li><a href="#all">Anything</a></li>
+       							 </ul>
+    						</div>
+   							 <!-- <input type="hidden" name="search_param" value="all" id="search_param"> -->
+  							  <input type="text" class="form-control" name="x" placeholder="Search term..."/>
+  							  <span class="input-group-btn">
+                  			  	<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+    						  </span>
+						</div>
+		  
+					</div><!-- end collapse navbar -->
+				</div><!-- end container -->
+			</div><!-- end navbar-fixed-top -->
+
+
+			<div id="topCarousel" class="carousel slide" data-ride="carousel">
+ 			 <!-- Indicators -->
+   				<ol class="carousel-indicators">
+    				<li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+    				<li data-target="#topCarousel" data-slide-to="1"></li>
+   					<li data-target="#topCarousel" data-slide-to="2"></li>
+   				</ol>
+
+ 				 <!-- Wrapper for slides -->
+  				<div class="carousel-inner" role="listbox">
+    				<div class="item active">
+      					<img src="images/trek.jpg" alt="trek"/>
+      					<div class="carousel-caption">
+        					...
+      					</div>
+    				</div>
+    				<div class="item">
+      					<img src="images/resort.jpg" alt="..."/>
+      					<div class="carousel-caption">
+       						...
+      					</div>
+    				</div>
+    				<div class="item">
+    					<img src="images/kasol.jpg" alt="kasol"/>
+    					<div class="caption">
+    						....
+    					</div>
+    				</div>
+ 				</div>
+
+  				<!-- Controls -->
+  				<a class="left carousel-control" href="#topCarousel" role="button" data-slide="prev">
+    				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    				<span class="sr-only">Previous</span>
+  				</a>
+ 				<a class="right carousel-control" href="#topCarousel" role="button" data-slide="next" style="margin-right: 0px;">
+   			 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    				<span class="sr-only">Next</span>
+  				</a>
+			</div>
+
+			<div class="row img3" style="margin: 0px;">
+				<div class="col-12">
+					<div class="col-sm-4">
+						<img src="images/home.png" alt="placeholder" class="img-responsive" />
+						<p>
+						Holiday rentals provide space, privacy, amenities and great value
+						</p>
+						<p>
+						<a href="#" class="btn btn-info">Find Rental</a>
+						</p>
+					</div>
+					<div class="col-sm-4 ">
+						<img src="images/search.png" alt="placeholder" class="img-responsive"/>
+						<p>
+							Discover full home rentals, condos, villas, beach rentals, cabins, cottages and more
+
+						</p>
+						<p>
+							<a href="#" class="btn btn-info">Discover</a>
+						</p>
+					</div>
+					<div class="col-sm-4">
+						<img src="images/rent.png" alt="placeholder" class="img-responsive"/>
+						<p>
+							Rent and Earn by listing your property with us..
+						</p>
+						<p>
+							<a href="#myModal" role="buttton" class="btn btn-info" data-toggle="modal">Contact Us</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="modal fade" id="myModal">
+
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Rent and Earn</h4>
+							</div><!--  end modal-header -->
+
+							<div class="modal-body" style="padding-bottom: 0px;">
+								<h4>change your earning experience</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem rerum unde dicta, harum delectus reiciendis, nulla assumenda repudiandae inventore quaerat quos ipsa animi est! Eveniet iure quibusdam hic fugit deleniti.</p>
+								<hr/>
+
+								<p><small class="text-muted">Need Help.....Contact us</small></p>
+
+								<form class="form-horizontal">
+									<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input type="text" name="Name" id="inputName" placeholder="Name" class="form-control"/>
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input type="Email" name="email" id="inputEmail" placeholder="Email" class="form-control"/>
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Meaasge" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit" style="margin-top: 15px;">Send!</button>
+														</div>
+													</div>
+								</form> <!-- end form -->
+							</div><!--  end modal-body -->
+							<div class="modal-footer">
+													<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+													<button class="btn btn-primary" type="button">Save Changes</button>
+							</div><!-- end modal-footer -->
+						</div> <!-- end modal content -->
+					</div> <!-- end modal dialog -->
+					
+				</div> <!-- end my modal -->
+			</div>
+
+			<h3 style="margin-left: 145px;">Theme Parks</h3>
+			<h4 style="margin-left: 145px;">Hop in and hold on tight!</h4>
+			<div class="carousel slide" id="multiCarousel" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+    				<div class="item active">
+       					<ul class="thumbnails">
+            				<li class="col-sm-3">
+                				<div class="casing">
+                   					<div class="thumbnail" id="item1"></div>
+                   					<div class="caption">
+                       					<h4>Title</h4>
+                       					<h5>Something nice</h5>
+                    				</div>
+               					 </div>
+           					</li>
+           					<!-- first list item-->
+
+							<li class="col-sm-3">
+                				<div class="casing">
+                    				<div class="thumbnail" id="item2"></div>
+                  				    <div class="caption">
+                       					 <h4>Title</h4>
+                       				 	<h5>Something nice</h5>
+                    				</div>
+               				 	</div>
+            				</li> 
+            				<!-- second list item -->
+            				<li class="col-sm-3">
+                				<div class="casing">
+                    				<div class="thumbnail" id="item3"></div>
+                    				<div class="caption">
+                        				<h4>Title</h4>
+                        				<h5>Something nice</h5>
+                    				</div>
+                				</div>
+                			</li>
+                			<!-- third list item-->
+            				<li class="col-sm-3">
+                				<div class="casing">
+                    				<div class="thumbnail" id="item14"></div>
+                    				<div class="caption">
+                        				<h4>Title</h4>
+                        				<h5>Something nice</h5>
+                    				</div>
+                				</div>
+            				</li>
+            				<!-- fourth list item -->
+        				</ul>
+        				<!-- thumbnails end -->
+   					</div> 
+   					<!-- slide1 -->
+
+
+   					<div class="item ">
+       					<ul class="thumbnails">
+            				<li class="col-sm-3">
+                				<div class="casing">
+                    				<div class="thumbnail" id="item5"></div>
+                    				<div class="caption">
+                        				<h4>Title</h4>
+                        				<h5>Something Nice</h5>
+                    				</div>
+                				</div>
+            				</li>
+            				<li class="col-sm-3">
+                				<div class="casing">
+                    				<div class="thumbnail" id="item6"></div>
+                    				<div class="caption">
+                        				<h4>Title</h4>
+                        				<h5>Something Nice</h5>
+                    				</div>
+                				</div>
+            				</li>
+            				<li class="col-sm-3">
+                				<div class="casing">
+                    				<div class="thumbnail" id="item7"></div>
+                    				<div class="caption">
+                        				<h4>Title</h4>
+                        				<h5>Something Nice</h5>
+                    				</div>
+                				</div>
+            				</li>
+            				<li class="col-sm-3">
+                				<div class="casing">
+                    				<div class="thumbnail" id="item8"></div>
+                    				<div class="caption">
+                        				<h4>Title</h4>
+                       					<h5>Something Nice</h5>
+                    				</div>
+                				</div>
+            				</li>
+        				</ul>
+        				<!-- thumnails end -->
+    				</div>
+    				<!-- slide2 -->
+				</div>
+				 <!-- end carousel inner -->
+				
+
+				<a href="#multiCarousel" class="left carousel-control" data-slide="prev" ><span></span></a>
+   				<a href="#multiCarousel" class="right carousel-control" data-slide="next" ><span></span></a>
+			</div>  <!--  end multi carousel -->
+
+			<section class="container" style="margin-left: 70px; margin-right: 70px">
+				<h3>Top Destinations</h3>
+				<div class="row" >
+					<div class="tabbable">
+						<ul class="nav nav-tabs" style="margin-left: 27px;">
+							<li class="active"><a href="#tab1" data-toggle="tab">India</a></li>
+							<li><a href="#tab2" data-toggle="tab">Outside</a></li>
+						</ul>
+						<div class="tab-content" style="margin-top: 1px;">
+							<div class="tab-pane active" id="tab1">
+								<div class="col-12">
+									<div class="col-3" style="margin-bottom: 10px;">
+										<img src="images/goa.jpg" alt="goa" class="img-responsive"/>
+									</div>
+									<div class="col-6">
+										<img src="images/kasol.jpg" alt="kasol" class="img-responsive"/>
+									</div>
+									<div class="col-3">
+										<img src="images/kerala.jpg" alt="kerala" class="img-responsive"/>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="col-3">
+										<img src="images/kashmir.jpg" alt="kashmir" class="img-responsive"/>
+									</div>
+									<div class="col-3">
+										<img src="images/kerala.jpg" alt="kerala" class="img-responsive"/>
+									</div>
+									<div class="col-6">
+										<img src="images/andaman.jpg" alt="andaman" class="img-responsive"/>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane" id="tab2">
+								<div class="col-12">
+									<div class="col-3" style="margin-top: 10px;">
+										<img src="images/kashmir.jpg" alt="kashmir" class="img-responsive"/>
+									</div>
+									<div class="col-6">
+										<img src="images/andaman.jpg" alt="andaman" class="img-responsive"/>
+									</div>
+									<div class="col-3">
+										<img src="images/kerala.jpg" alt="kerala" class="img-responsive"/>
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="col-3">
+										<img src="images/goa.jpg" alt="goa" class="img-responsive" />
+									</div>
+									<div class="col-3">
+										<img src="images/kerala.jpg" alt="kerala" class="img-responsive" />
+									</div>
+									<div class="col-6">
+										<img src="images/kasol.jpg" alt="kasol" class="img-responsive"/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+
+
+			</section>
+
+			<section>
+				<h3 style="margin-left: 86px; margin-top: 60px;">Stories</h3>
+				<div class="row" style="margin-left: 70px; margin-right: 70px;">
+					<div class="col-12">
+						<div class="thumbnails row">
+							<div class="col-3">
+								<div class="thumbnail">
+									<img src="images/pondicherry.jpg" alt="pondicherry stories"/>
+									<div class="caption captionstyle">
+										<small class="text-muted">TRAVEL</small>
+										<h3>SayCheese: A Snapshot From Pondicherry</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ab, reprehenderit natus quo consequuntur..</p>
+										<a href="#" class="btn btn-link btn-small">Read More..</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-3">
+								<div class="thumbnail">
+									<img src="images/mysore.jpg" alt="mysore stories"/>
+									<div class="caption captionstyle">
+										<small class="text-muted">TRAVEL</small>
+										<h3>Mysore Talk</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ab, reprehenderit natus quo consequuntur</p>
+										<a href="#" class="btn btn-link btn-small">Read More..</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-3">
+								<div class="thumbnail">
+									<img src="images/kodaikanal.jpg" alt="kodaikanal stories"/>
+									<div class="caption captionstyle">
+										<small class="text-muted">TRAVEL</small>
+										<h3>SayCheese: A Snapshot From Kodaikanal</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ab, reprehenderit natus quo consequuntur.</p>
+										<a href="#" class="btn btn-link btn-small">Read More..</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-3">
+								<div class="thumbnail">
+									<img src="images/dessert.jpg" alt="dessert stories"/>
+									<div class="caption captionstyle">
+										<small class="text-muted">TRAVEL</small>
+										<h3>Amazing Places for Hunger</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ab, reprehenderit natus quo consequuntur</p>
+										<a href="#" class="btn btn-link btn-small">Read More..</a>
+									</div>
+								</div>
+							</div>
+						</div> <!--end thumbnails row -->
+				 	</div>
+				</div>
+			</section>
+
+		</div> <!--end container -->
+	</main>
+
+
+	<footer>
+		<hr/>
+		<div class="container">
+
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2013 {name}</h6>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-2">
+					<h6>Useful Links</h6>
+					<ul class="unstyled">
+						<li><a href="#">Top Stories</a></li>
+						<li><a href="#">Portal</a></li>
+						<li><a href="#">location</a></li>
+
+					</ul>
+				</div><!-- end-col-sm-4 -->
+
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-4" style="margin-top: 30px;">
+					<a href="#"><img src="images/facebook.png" alt="fb"/></a>
+					<a href="#"><img src="images/instagram.png" alt="fb"/></a>
+					<a href="#"><img src="images/pinterest.png" alt="fb"/></a>
+					<a href="#"><img src="images/twitter.png" alt="fb"/></a>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-2">
+					
+				</div><!-- end col-sm-2 -->
+			</div><!-- end container -->
+	</footer>
+
+	
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(e){
+    $('.search-panel .dropdown-menu').find('a').click(function(e) {
+		e.preventDefault();
+		var param = $(this).attr("href").replace("#","");
+		var concept = $(this).text();
+		$('.search-panel span#search_concept').text(concept);
+		$('.input-group #search_param').val(param);
+	});
+});
+	</script>
+</body>
+</html>
